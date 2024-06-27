@@ -24,5 +24,4 @@ jobs:
             cd /home/ubuntu/starpi
             npm install
             npm run build
-            npm run start
-            npm start pm2
+            pm2 restart0
