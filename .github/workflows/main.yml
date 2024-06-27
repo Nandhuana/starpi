@@ -21,7 +21,7 @@ jobs:
           key: ${{ secrets.KEY }}
           port: 22
           script: |
-            cd /home/ubuntu/Strapi-project-Deployment
+            cd /home/ubuntu/Strapi
             npm install
             npm run build
             npm run develop
